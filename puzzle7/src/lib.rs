@@ -88,4 +88,3 @@ fn bfs_nd(position: u32, dims: u32, side: u32) -> u64 {
         })
         .sum()
 }
-

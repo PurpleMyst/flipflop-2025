@@ -57,7 +57,7 @@ pub fn solve_part3() -> impl Display {
     let mut h = 0;
 
     let mut x = 0;
-    let mut y=  1;
+    let mut y = 1;
     let mut fibs = vec![0, 1];
     for _ in 0..20 {
         fibs.push(x + y);
@@ -88,4 +88,3 @@ pub fn solve_part3() -> impl Display {
         .max()
         .unwrap()
 }
-

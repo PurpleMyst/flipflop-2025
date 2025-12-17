@@ -116,4 +116,3 @@ pub fn solve_part3() -> impl Display {
     }
     steps
 }
-

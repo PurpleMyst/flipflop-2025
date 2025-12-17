@@ -1,5 +1,4 @@
-use std::fmt::Display;
-use std::iter::once;
+use std::{fmt::Display, iter::once};
 
 use itertools::Itertools;
 
@@ -44,4 +43,3 @@ pub fn solve_part3() -> impl Display {
         .map(|(a, b)| a.0.abs_diff(b.0).max(a.1.abs_diff(b.1)))
         .sum::<u16>()
 }
-

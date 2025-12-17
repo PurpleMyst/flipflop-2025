@@ -33,6 +33,7 @@ pub fn solve_part2() -> impl Display {
         .collect::<Vec<(i64, i64)>>();
 
     (1..=1000)
+        .into_par_iter()
         .map(|h| {
             birds
                 .iter()
@@ -62,7 +63,8 @@ pub fn solve_part3() -> impl Display {
     (1..=1000)
         .into_par_iter()
         .map(|h| {
-            birds.iter()
+            birds
+                .iter()
                 .map(|(vx, vy)| {
                     (
                         ((31556926 % 1000) * h * vx).rem_euclid(1000),
