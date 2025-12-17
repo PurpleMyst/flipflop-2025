@@ -6,6 +6,7 @@ edition = "2024"
 [dependencies]
 puzzle1 = { version = "0.1.0", path = "../puzzle1" }
 puzzle2 = { version = "0.1.0", path = "../puzzle2" }
+puzzle3 = { version = "0.1.0", path = "../puzzle3" }
 
 [dev-dependencies]
 criterion = { version = "0.8", features = ["html_reports"] }
