@@ -33,4 +33,5 @@ problems!(
     puzzle1,
     puzzle2,
     puzzle3,
+    puzzle4,
 );
