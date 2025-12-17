@@ -10,6 +10,7 @@ puzzle3 = { version = "0.1.0", path = "../puzzle3" }
 puzzle4 = { version = "0.1.0", path = "../puzzle4" }
 puzzle5 = { version = "0.1.0", path = "../puzzle5" }
 puzzle6 = { version = "0.1.0", path = "../puzzle6" }
+puzzle7 = { version = "0.1.0", path = "../puzzle7" }
 
 [dev-dependencies]
 criterion = { version = "0.8", features = ["html_reports"] }
