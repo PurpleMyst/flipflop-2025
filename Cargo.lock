@@ -430,6 +430,9 @@ version = "0.1.0"
 [[package]]
 name = "puzzle6"
 version = "0.1.0"
+dependencies = [
+ "rayon",
+]
 
 [[package]]
 name = "puzzle7"
