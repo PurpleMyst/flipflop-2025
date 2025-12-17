@@ -2,11 +2,15 @@
 resolver = "3"
 members = [
     "benchmark",
+    "puzzle1",
 ]
 
 [workspace.metadata.tasks]
 problem_name = "puzzle"
 problem_digits = 1
 
+[workspace.metadata.puzzle1]
+start_time = 2025-12-17T10:56:51.629401
+completion_time = 2025-12-17T11:01:21.581055
 [profile.release]
 debug = true
